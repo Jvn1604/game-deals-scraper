@@ -1,302 +1,1042 @@
 [
   {
-    "appid": "1091500",
-    "title": "Cyberpunk 2077",
-    "genre": "RPG",
-    "original_price": 59.99,
-    "price": 17.99,
-    "discount_pct": 70,
-    "url": "https://store.steampowered.com/app/1091500",
-    "store": "Steam"
-  },
-  {
-    "appid": "1245620",
-    "title": "Elden Ring",
-    "genre": "RPG",
-    "original_price": 59.99,
-    "price": 41.99,
-    "discount_pct": 30,
-    "url": "https://store.steampowered.com/app/1245620",
-    "store": "Steam"
-  },
-  {
-    "appid": "292030",
-    "title": "The Witcher 3: Wild Hunt",
-    "genre": "RPG",
-    "original_price": 39.99,
-    "price": 7.99,
-    "discount_pct": 80,
-    "url": "https://store.steampowered.com/app/292030",
-    "store": "Steam"
-  },
-  {
     "appid": "1174180",
     "title": "Red Dead Redemption 2",
     "genre": "Action",
+    "store": "Steam",
     "original_price": 59.99,
-    "price": 23.99,
+    "price": 24.0,
     "discount_pct": 60,
-    "url": "https://store.steampowered.com/app/1174180",
-    "store": "Steam"
+    "url": "https://store.steampowered.com/app/1174180"
   },
   {
     "appid": "271590",
     "title": "Grand Theft Auto V",
     "genre": "Action",
+    "store": "Steam",
     "original_price": 29.99,
-    "price": 7.49,
+    "price": 7.5,
     "discount_pct": 75,
-    "url": "https://store.steampowered.com/app/271590",
-    "store": "Steam"
-  },
-  {
-    "appid": "1086940",
-    "title": "Baldur's Gate 3",
-    "genre": "RPG",
-    "original_price": 59.99,
-    "price": 47.99,
-    "discount_pct": 20,
-    "url": "https://store.steampowered.com/app/1086940",
-    "store": "Steam"
-  },
-  {
-    "appid": "413150",
-    "title": "Stardew Valley",
-    "genre": "Indie",
-    "original_price": 14.99,
-    "price": 8.99,
-    "discount_pct": 40,
-    "url": "https://store.steampowered.com/app/413150",
-    "store": "Steam"
-  },
-  {
-    "appid": "620",
-    "title": "Portal 2",
-    "genre": "Adventure",
-    "original_price": 9.99,
-    "price": 1.99,
-    "discount_pct": 80,
-    "url": "https://store.steampowered.com/app/620",
-    "store": "Steam"
-  },
-  {
-    "appid": "1091500-2",
-    "title": "Hades",
-    "genre": "Indie",
-    "original_price": 24.99,
-    "price": 9.99,
-    "discount_pct": 60,
-    "url": "https://store.steampowered.com/app/1145360",
-    "store": "Steam"
+    "url": "https://store.steampowered.com/app/271590"
   },
   {
     "appid": "1237970",
     "title": "Titanfall 2",
     "genre": "Action",
+    "store": "Steam",
     "original_price": 19.99,
-    "price": 3.99,
+    "price": 4.0,
     "discount_pct": 80,
-    "url": "https://store.steampowered.com/app/1237970",
-    "store": "Steam"
-  },
-  {
-    "appid": "289070",
-    "title": "Sid Meier's Civilization VI",
-    "genre": "Strategy",
-    "original_price": 59.99,
-    "price": 5.99,
-    "discount_pct": 90,
-    "url": "https://store.steampowered.com/app/289070",
-    "store": "Steam"
-  },
-  {
-    "appid": "394360",
-    "title": "Hearts of Iron IV",
-    "genre": "Strategy",
-    "original_price": 39.99,
-    "price": 15.99,
-    "discount_pct": 60,
-    "url": "https://store.steampowered.com/app/394360",
-    "store": "Steam"
-  },
-  {
-    "appid": "255710",
-    "title": "Cities: Skylines",
-    "genre": "Simulation",
-    "original_price": 29.99,
-    "price": 5.99,
-    "discount_pct": 80,
-    "url": "https://store.steampowered.com/app/255710",
-    "store": "Steam"
-  },
-  {
-    "appid": "227300",
-    "title": "Euro Truck Simulator 2",
-    "genre": "Simulation",
-    "original_price": 19.99,
-    "price": 3.99,
-    "discount_pct": 80,
-    "url": "https://store.steampowered.com/app/227300",
-    "store": "Steam"
-  },
-  {
-    "appid": "1245621",
-    "title": "Forza Horizon 5",
-    "genre": "Racing",
-    "original_price": 59.99,
-    "price": 29.99,
-    "discount_pct": 50,
-    "url": "https://store.steampowered.com/app/1245621",
-    "store": "Steam"
-  },
-  {
-    "appid": "1229490",
-    "title": "F1 24",
-    "genre": "Racing",
-    "original_price": 69.99,
-    "price": 34.99,
-    "discount_pct": 50,
-    "url": "https://store.steampowered.com/app/1229490",
-    "store": "Steam"
-  },
-  {
-    "appid": "1938090",
-    "title": "Call of Duty: MW III",
-    "genre": "Action",
-    "original_price": 69.99,
-    "price": 55.99,
-    "discount_pct": 20,
-    "url": "https://store.steampowered.com/app/1938090",
-    "store": "Steam"
-  },
-  {
-    "appid": "578080",
-    "title": "PUBG: Battlegrounds",
-    "genre": "Action",
-    "original_price": 0.0,
-    "price": 0.0,
-    "discount_pct": 0,
-    "url": "https://store.steampowered.com/app/578080",
-    "store": "Steam"
+    "url": "https://store.steampowered.com/app/1237970"
   },
   {
     "appid": "1517290",
     "title": "Battlefield 2042",
     "genre": "Action",
+    "store": "Steam",
     "original_price": 39.99,
-    "price": 9.99,
+    "price": 10.0,
     "discount_pct": 75,
-    "url": "https://store.steampowered.com/app/1517290",
-    "store": "Steam"
+    "url": "https://store.steampowered.com/app/1517290"
   },
   {
-    "appid": "813780",
-    "title": "Age of Empires II: Definitive Edition",
-    "genre": "Strategy",
-    "original_price": 19.99,
-    "price": 3.99,
-    "discount_pct": 80,
-    "url": "https://store.steampowered.com/app/813780",
-    "store": "Steam"
+    "appid": "1938090",
+    "title": "Call of Duty: MW III",
+    "genre": "Action",
+    "store": "Steam",
+    "original_price": 69.99,
+    "price": 55.99,
+    "discount_pct": 20,
+    "url": "https://store.steampowered.com/app/1938090"
   },
   {
-    "appid": "863550",
-    "title": "Slay the Spire",
-    "genre": "Indie",
-    "original_price": 24.99,
-    "price": 6.24,
-    "discount_pct": 75,
-    "url": "https://store.steampowered.com/app/863550",
-    "store": "Steam"
+    "appid": "782330",
+    "title": "DOOM Eternal",
+    "genre": "Action",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 12.0,
+    "discount_pct": 70,
+    "url": "https://store.steampowered.com/app/782330"
   },
   {
-    "appid": "504230",
-    "title": "Celeste",
-    "genre": "Indie",
-    "original_price": 19.99,
-    "price": 3.99,
-    "discount_pct": 80,
-    "url": "https://store.steampowered.com/app/504230",
-    "store": "Steam"
-  },
-  {
-    "appid": "1794680",
-    "title": "Vampire Survivors",
-    "genre": "Indie",
-    "original_price": 4.99,
-    "price": 2.49,
+    "appid": "814380",
+    "title": "Sekiro: Shadows Die Twice",
+    "genre": "Action",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 30.0,
     "discount_pct": 50,
-    "url": "https://store.steampowered.com/app/1794680",
-    "store": "Steam"
+    "url": "https://store.steampowered.com/app/814380"
+  },
+  {
+    "appid": "601150",
+    "title": "Devil May Cry 5",
+    "genre": "Action",
+    "store": "Steam",
+    "original_price": 29.99,
+    "price": 7.5,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/601150"
+  },
+  {
+    "appid": "2050650",
+    "title": "Resident Evil 4",
+    "genre": "Action",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 35.99,
+    "discount_pct": 40,
+    "url": "https://store.steampowered.com/app/2050650"
+  },
+  {
+    "appid": "534380",
+    "title": "Dying Light 2",
+    "genre": "Action",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 21.0,
+    "discount_pct": 65,
+    "url": "https://store.steampowered.com/app/534380"
+  },
+  {
+    "appid": "1222730",
+    "title": "Sifu",
+    "genre": "Action",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 18.0,
+    "discount_pct": 55,
+    "url": "https://store.steampowered.com/app/1222730"
+  },
+  {
+    "appid": "578080",
+    "title": "PUBG: Battlegrounds",
+    "genre": "Action",
+    "store": "Steam",
+    "original_price": 0.0,
+    "price": 0.0,
+    "discount_pct": 0,
+    "url": "https://store.steampowered.com/app/578080"
+  },
+  {
+    "appid": "287700",
+    "title": "Metal Gear Solid V: The Phantom Pain",
+    "genre": "Action",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 8.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/287700"
+  },
+  {
+    "appid": "1091500",
+    "title": "Cyberpunk 2077",
+    "genre": "RPG",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 18.0,
+    "discount_pct": 70,
+    "url": "https://store.steampowered.com/app/1091500"
+  },
+  {
+    "appid": "1245620",
+    "title": "Elden Ring",
+    "genre": "RPG",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 41.99,
+    "discount_pct": 30,
+    "url": "https://store.steampowered.com/app/1245620"
+  },
+  {
+    "appid": "292030",
+    "title": "The Witcher 3: Wild Hunt",
+    "genre": "RPG",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 8.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/292030"
+  },
+  {
+    "appid": "1086940",
+    "title": "Baldur's Gate 3",
+    "genre": "RPG",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 47.99,
+    "discount_pct": 20,
+    "url": "https://store.steampowered.com/app/1086940"
+  },
+  {
+    "appid": "632470",
+    "title": "Disco Elysium: The Final Cut",
+    "genre": "RPG",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 10.0,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/632470"
   },
   {
     "appid": "1449850",
     "title": "Yakuza: Like a Dragon",
     "genre": "RPG",
+    "store": "Steam",
     "original_price": 59.99,
-    "price": 11.99,
+    "price": 12.0,
     "discount_pct": 80,
-    "url": "https://store.steampowered.com/app/1449850",
-    "store": "Steam"
+    "url": "https://store.steampowered.com/app/1449850"
   },
   {
-    "appid": "extra1",
-    "title": "Disco Elysium: The Final Cut",
+    "appid": "435150",
+    "title": "Divinity: Original Sin 2",
     "genre": "RPG",
-    "original_price": 39.99,
-    "price": 9.99,
+    "store": "Steam",
+    "original_price": 44.99,
+    "price": 13.5,
+    "discount_pct": 70,
+    "url": "https://store.steampowered.com/app/435150"
+  },
+  {
+    "appid": "377160",
+    "title": "Fallout 4",
+    "genre": "RPG",
+    "store": "Steam",
+    "original_price": 19.99,
+    "price": 5.0,
     "discount_pct": 75,
-    "url": "https://store.steampowered.com/app/632470",
-    "store": "Steam"
+    "url": "https://store.steampowered.com/app/377160"
   },
   {
-    "appid": "extra2",
-    "title": "It Takes Two",
-    "genre": "Adventure",
+    "appid": "489830",
+    "title": "The Elder Scrolls V: Skyrim Special Edition",
+    "genre": "RPG",
+    "store": "Steam",
     "original_price": 39.99,
-    "price": 15.99,
-    "discount_pct": 60,
-    "url": "https://store.steampowered.com/app/1426210",
-    "store": "Steam"
+    "price": 10.0,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/489830"
   },
   {
-    "appid": "extra3",
-    "title": "Subnautica",
-    "genre": "Adventure",
+    "appid": "379430",
+    "title": "Kingdom Come: Deliverance",
+    "genre": "RPG",
+    "store": "Steam",
     "original_price": 29.99,
-    "price": 5.99,
+    "price": 6.0,
     "discount_pct": 80,
-    "url": "https://store.steampowered.com/app/264710",
-    "store": "Steam"
+    "url": "https://store.steampowered.com/app/379430"
   },
   {
-    "appid": "extra4",
-    "title": "Rocket League",
-    "genre": "Sports",
+    "appid": "2344520",
+    "title": "Diablo IV",
+    "genre": "RPG",
+    "store": "Steam",
+    "original_price": 69.99,
+    "price": 46.89,
+    "discount_pct": 33,
+    "url": "https://store.steampowered.com/app/2344520"
+  },
+  {
+    "appid": "1328670",
+    "title": "Mass Effect Legendary Edition",
+    "genre": "RPG",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 15.0,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/1328670"
+  },
+  {
+    "appid": "1222690",
+    "title": "Dragon Age: Inquisition",
+    "genre": "RPG",
+    "store": "Steam",
+    "original_price": 29.99,
+    "price": 6.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/1222690"
+  },
+  {
+    "appid": "289070",
+    "title": "Sid Meier's Civilization VI",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 6.0,
+    "discount_pct": 90,
+    "url": "https://store.steampowered.com/app/289070"
+  },
+  {
+    "appid": "394360",
+    "title": "Hearts of Iron IV",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 16.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/394360"
+  },
+  {
+    "appid": "813780",
+    "title": "Age of Empires II: Definitive Edition",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 19.99,
+    "price": 4.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/813780"
+  },
+  {
+    "appid": "1142710",
+    "title": "Total War: WARHAMMER III",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 18.0,
+    "discount_pct": 70,
+    "url": "https://store.steampowered.com/app/1142710"
+  },
+  {
+    "appid": "1158310",
+    "title": "Crusader Kings III",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 49.99,
+    "price": 25.0,
+    "discount_pct": 50,
+    "url": "https://store.steampowered.com/app/1158310"
+  },
+  {
+    "appid": "268500",
+    "title": "XCOM 2",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 9.0,
+    "discount_pct": 85,
+    "url": "https://store.steampowered.com/app/268500"
+  },
+  {
+    "appid": "281990",
+    "title": "Stellaris",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 10.0,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/281990"
+  },
+  {
+    "appid": "323190",
+    "title": "Frostpunk",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 29.99,
+    "price": 4.5,
+    "discount_pct": 85,
+    "url": "https://store.steampowered.com/app/323190"
+  },
+  {
+    "appid": "644930",
+    "title": "They Are Billions",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 29.99,
+    "price": 12.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/644930"
+  },
+  {
+    "appid": "590380",
+    "title": "Into the Breach",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 14.99,
+    "price": 7.5,
+    "discount_pct": 50,
+    "url": "https://store.steampowered.com/app/590380"
+  },
+  {
+    "appid": "607050",
+    "title": "Wargroove",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 19.99,
+    "price": 8.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/607050"
+  },
+  {
+    "appid": "1677280",
+    "title": "Company of Heroes 3",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 49.99,
+    "price": 22.5,
+    "discount_pct": 55,
+    "url": "https://store.steampowered.com/app/1677280"
+  },
+  {
+    "appid": "466560",
+    "title": "Northgard",
+    "genre": "Strategy",
+    "store": "Steam",
+    "original_price": 19.99,
+    "price": 7.0,
+    "discount_pct": 65,
+    "url": "https://store.steampowered.com/app/466560"
+  },
+  {
+    "appid": "255710",
+    "title": "Cities: Skylines",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 29.99,
+    "price": 6.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/255710"
+  },
+  {
+    "appid": "227300",
+    "title": "Euro Truck Simulator 2",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 19.99,
+    "price": 4.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/227300"
+  },
+  {
+    "appid": "1250410",
+    "title": "Microsoft Flight Simulator",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 35.99,
+    "discount_pct": 40,
+    "url": "https://store.steampowered.com/app/1250410"
+  },
+  {
+    "appid": "1248130",
+    "title": "Farming Simulator 22",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 16.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/1248130"
+  },
+  {
+    "appid": "621060",
+    "title": "PC Building Simulator",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 19.99,
+    "price": 6.0,
+    "discount_pct": 70,
+    "url": "https://store.steampowered.com/app/621060"
+  },
+  {
+    "appid": "606150",
+    "title": "House Flipper",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 16.99,
+    "price": 5.1,
+    "discount_pct": 70,
+    "url": "https://store.steampowered.com/app/606150"
+  },
+  {
+    "appid": "535930",
+    "title": "Two Point Hospital",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 34.99,
+    "price": 8.75,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/535930"
+  },
+  {
+    "appid": "703080",
+    "title": "Planet Zoo",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 44.99,
+    "price": 18.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/703080"
+  },
+  {
+    "appid": "220200",
+    "title": "Kerbal Space Program",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 10.0,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/220200"
+  },
+  {
+    "appid": "1222670",
+    "title": "The Sims 4",
+    "genre": "Simulation",
+    "store": "Steam",
     "original_price": 0.0,
     "price": 0.0,
     "discount_pct": 0,
-    "url": "https://store.steampowered.com/app/252950",
-    "store": "Steam"
+    "url": "https://store.steampowered.com/app/1222670"
   },
   {
-    "appid": "extra5",
+    "appid": "233450",
+    "title": "Prison Architect",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 29.99,
+    "price": 4.5,
+    "discount_pct": 85,
+    "url": "https://store.steampowered.com/app/233450"
+  },
+  {
+    "appid": "s-2417482",
+    "title": "American Truck Simulator",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 19.99,
+    "price": 4.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/search/?term=American%20Truck%20Simulator"
+  },
+  {
+    "appid": "949230",
+    "title": "Cities: Skylines II",
+    "genre": "Simulation",
+    "store": "Steam",
+    "original_price": 49.99,
+    "price": 34.99,
+    "discount_pct": 30,
+    "url": "https://store.steampowered.com/app/949230"
+  },
+  {
+    "appid": "1811260",
     "title": "FIFA 23",
     "genre": "Sports",
+    "store": "Steam",
     "original_price": 59.99,
-    "price": 14.99,
+    "price": 15.0,
     "discount_pct": 75,
-    "url": "https://store.steampowered.com/app/1811260",
-    "store": "Steam"
+    "url": "https://store.steampowered.com/app/1811260"
   },
   {
-    "appid": "extra6",
+    "appid": "2338770",
     "title": "NBA 2K24",
     "genre": "Sports",
+    "store": "Steam",
     "original_price": 69.99,
-    "price": 20.99,
+    "price": 21.0,
     "discount_pct": 70,
-    "url": "https://store.steampowered.com/app/2338770",
-    "store": "Steam"
+    "url": "https://store.steampowered.com/app/2338770"
+  },
+  {
+    "appid": "252950",
+    "title": "Rocket League",
+    "genre": "Sports",
+    "store": "Steam",
+    "original_price": 0.0,
+    "price": 0.0,
+    "discount_pct": 0,
+    "url": "https://store.steampowered.com/app/252950"
+  },
+  {
+    "appid": "s-3486636",
+    "title": "PGA Tour 2K23",
+    "genre": "Sports",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 21.0,
+    "discount_pct": 65,
+    "url": "https://store.steampowered.com/search/?term=PGA%20Tour%202K23"
+  },
+  {
+    "appid": "s-4757763",
+    "title": "WWE 2K24",
+    "genre": "Sports",
+    "store": "Steam",
+    "original_price": 69.99,
+    "price": 38.49,
+    "discount_pct": 45,
+    "url": "https://store.steampowered.com/search/?term=WWE%202K24"
+  },
+  {
+    "appid": "1665460",
+    "title": "eFootball",
+    "genre": "Sports",
+    "store": "Steam",
+    "original_price": 0.0,
+    "price": 0.0,
+    "discount_pct": 0,
+    "url": "https://store.steampowered.com/app/1665460"
+  },
+  {
+    "appid": "2252570",
+    "title": "Football Manager 2024",
+    "genre": "Sports",
+    "store": "Steam",
+    "original_price": 54.99,
+    "price": 22.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/2252570"
+  },
+  {
+    "appid": "1088090",
+    "title": "Tony Hawk's Pro Skater 1+2",
+    "genre": "Sports",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 12.0,
+    "discount_pct": 70,
+    "url": "https://store.steampowered.com/app/1088090"
+  },
+  {
+    "appid": "s-5390099",
+    "title": "Madden NFL 24",
+    "genre": "Sports",
+    "store": "Steam",
+    "original_price": 69.99,
+    "price": 31.5,
+    "discount_pct": 55,
+    "url": "https://store.steampowered.com/search/?term=Madden%20NFL%2024"
+  },
+  {
+    "appid": "s-2152272",
+    "title": "NHL 24",
+    "genre": "Sports",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 30.0,
+    "discount_pct": 50,
+    "url": "https://store.steampowered.com/search/?term=NHL%2024"
+  },
+  {
+    "appid": "431240",
+    "title": "Golf With Your Friends",
+    "genre": "Sports",
+    "store": "Steam",
+    "original_price": 14.99,
+    "price": 6.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/431240"
+  },
+  {
+    "appid": "1352950",
+    "title": "OlliOlli World",
+    "genre": "Sports",
+    "store": "Steam",
+    "original_price": 29.99,
+    "price": 10.5,
+    "discount_pct": 65,
+    "url": "https://store.steampowered.com/app/1352950"
+  },
+  {
+    "appid": "s-6725090",
+    "title": "Angry Birds Golf Battle",
+    "genre": "Sports",
+    "store": "Steam",
+    "original_price": 0.0,
+    "price": 0.0,
+    "discount_pct": 0,
+    "url": "https://store.steampowered.com/search/?term=Angry%20Birds%20Golf%20Battle"
+  },
+  {
+    "appid": "1245621",
+    "title": "Forza Horizon 5",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 30.0,
+    "discount_pct": 50,
+    "url": "https://store.steampowered.com/app/1245621"
+  },
+  {
+    "appid": "2488620",
+    "title": "F1 24",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 69.99,
+    "price": 41.99,
+    "discount_pct": 40,
+    "url": "https://store.steampowered.com/app/2488620"
+  },
+  {
+    "appid": "1222680",
+    "title": "Need for Speed Heat",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 8.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/1222680"
+  },
+  {
+    "appid": "690790",
+    "title": "Dirt Rally 2.0",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 34.99,
+    "price": 8.75,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/690790"
+  },
+  {
+    "appid": "1307710",
+    "title": "Grid Legends",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 49.99,
+    "price": 12.5,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/1307710"
+  },
+  {
+    "appid": "228380",
+    "title": "Wreckfest",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 29.99,
+    "price": 7.5,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/228380"
+  },
+  {
+    "appid": "805550",
+    "title": "Assetto Corsa Competizione",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 16.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/805550"
+  },
+  {
+    "appid": "2225070",
+    "title": "Trackmania",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 0.0,
+    "price": 0.0,
+    "discount_pct": 0,
+    "url": "https://store.steampowered.com/app/2225070"
+  },
+  {
+    "appid": "1366800",
+    "title": "Riders Republic",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 12.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/1366800"
+  },
+  {
+    "appid": "2108330",
+    "title": "F1 23",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 69.99,
+    "price": 31.5,
+    "discount_pct": 55,
+    "url": "https://store.steampowered.com/app/2108330"
+  },
+  {
+    "appid": "646910",
+    "title": "The Crew 2",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 29.99,
+    "price": 6.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/646910"
+  },
+  {
+    "appid": "1707430",
+    "title": "Hot Wheels Unleashed",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 12.0,
+    "discount_pct": 70,
+    "url": "https://store.steampowered.com/app/1707430"
+  },
+  {
+    "appid": "2440510",
+    "title": "Forza Motorsport",
+    "genre": "Racing",
+    "store": "Steam",
+    "original_price": 59.99,
+    "price": 41.99,
+    "discount_pct": 30,
+    "url": "https://store.steampowered.com/app/2440510"
+  },
+  {
+    "appid": "620",
+    "title": "Portal 2",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 9.99,
+    "price": 2.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/620"
+  },
+  {
+    "appid": "1426210",
+    "title": "It Takes Two",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 16.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/1426210"
+  },
+  {
+    "appid": "264710",
+    "title": "Subnautica",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 29.99,
+    "price": 6.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/264710"
+  },
+  {
+    "appid": "1042420",
+    "title": "Life is Strange: True Colors",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 10.0,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/1042420"
+  },
+  {
+    "appid": "1182900",
+    "title": "A Plague Tale: Requiem",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 49.99,
+    "price": 20.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/1182900"
+  },
+  {
+    "appid": "383870",
+    "title": "Firewatch",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 19.99,
+    "price": 6.0,
+    "discount_pct": 70,
+    "url": "https://store.steampowered.com/app/383870"
+  },
+  {
+    "appid": "753640",
+    "title": "Outer Wilds",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 24.99,
+    "price": 12.49,
+    "discount_pct": 50,
+    "url": "https://store.steampowered.com/app/753640"
+  },
+  {
+    "appid": "1172620",
+    "title": "Sea of Thieves",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 20.0,
+    "discount_pct": 50,
+    "url": "https://store.steampowered.com/app/1172620"
+  },
+  {
+    "appid": "1659420",
+    "title": "Uncharted 4: A Thief's End",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 39.99,
+    "price": 14.0,
+    "discount_pct": 65,
+    "url": "https://store.steampowered.com/app/1659420"
+  },
+  {
+    "appid": "203160",
+    "title": "Tomb Raider",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 19.99,
+    "price": 3.0,
+    "discount_pct": 85,
+    "url": "https://store.steampowered.com/app/203160"
+  },
+  {
+    "appid": "638230",
+    "title": "Journey",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 14.99,
+    "price": 8.99,
+    "discount_pct": 40,
+    "url": "https://store.steampowered.com/app/638230"
+  },
+  {
+    "appid": "231200",
+    "title": "Kentucky Route Zero",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 24.99,
+    "price": 10.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/231200"
+  },
+  {
+    "appid": "501300",
+    "title": "What Remains of Edith Finch",
+    "genre": "Adventure",
+    "store": "Steam",
+    "original_price": 19.99,
+    "price": 8.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/501300"
+  },
+  {
+    "appid": "413150",
+    "title": "Stardew Valley",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 14.99,
+    "price": 8.99,
+    "discount_pct": 40,
+    "url": "https://store.steampowered.com/app/413150"
+  },
+  {
+    "appid": "504230",
+    "title": "Celeste",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 19.99,
+    "price": 4.0,
+    "discount_pct": 80,
+    "url": "https://store.steampowered.com/app/504230"
+  },
+  {
+    "appid": "1794680",
+    "title": "Vampire Survivors",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 4.99,
+    "price": 2.5,
+    "discount_pct": 50,
+    "url": "https://store.steampowered.com/app/1794680"
+  },
+  {
+    "appid": "863550",
+    "title": "Slay the Spire",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 24.99,
+    "price": 6.25,
+    "discount_pct": 75,
+    "url": "https://store.steampowered.com/app/863550"
+  },
+  {
+    "appid": "367520",
+    "title": "Hollow Knight",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 14.99,
+    "price": 4.5,
+    "discount_pct": 70,
+    "url": "https://store.steampowered.com/app/367520"
+  },
+  {
+    "appid": "588650",
+    "title": "Dead Cells",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 24.99,
+    "price": 10.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/588650"
+  },
+  {
+    "appid": "1145360",
+    "title": "Hades",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 24.99,
+    "price": 10.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/1145360"
+  },
+  {
+    "appid": "391540",
+    "title": "Undertale",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 9.99,
+    "price": 5.0,
+    "discount_pct": 50,
+    "url": "https://store.steampowered.com/app/391540"
+  },
+  {
+    "appid": "105600",
+    "title": "Terraria",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 9.99,
+    "price": 5.0,
+    "discount_pct": 50,
+    "url": "https://store.steampowered.com/app/105600"
+  },
+  {
+    "appid": "632360",
+    "title": "Risk of Rain 2",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 24.99,
+    "price": 10.0,
+    "discount_pct": 60,
+    "url": "https://store.steampowered.com/app/632360"
+  },
+  {
+    "appid": "1313140",
+    "title": "Cult of the Lamb",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 24.99,
+    "price": 12.49,
+    "discount_pct": 50,
+    "url": "https://store.steampowered.com/app/1313140"
+  },
+  {
+    "appid": "972660",
+    "title": "Spiritfarer",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 29.99,
+    "price": 9.0,
+    "discount_pct": 70,
+    "url": "https://store.steampowered.com/app/972660"
+  },
+  {
+    "appid": "945360",
+    "title": "Among Us",
+    "genre": "Indie",
+    "store": "Steam",
+    "original_price": 4.99,
+    "price": 4.99,
+    "discount_pct": 0,
+    "url": "https://store.steampowered.com/app/945360"
   }
 ]

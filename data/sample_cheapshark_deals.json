@@ -1,14 +1,412 @@
 [
-  {"appid": "cs-1", "title": "Persona 5 Royal", "genre": "RPG", "store": "Epic Games Store", "original_price": 59.99, "price": 14.99, "discount_pct": 75, "url": "https://www.cheapshark.com/redirect?dealID=cs-1"},
-  {"appid": "cs-2", "title": "Divinity: Original Sin 2", "genre": "RPG", "store": "GOG", "original_price": 44.99, "price": 8.99, "discount_pct": 80, "url": "https://www.cheapshark.com/redirect?dealID=cs-2"},
-  {"appid": "cs-3", "title": "Hollow Knight", "genre": "Indie", "store": "Humble Store", "original_price": 14.99, "price": 4.49, "discount_pct": 70, "url": "https://www.cheapshark.com/redirect?dealID=cs-3"},
-  {"appid": "cs-4", "title": "Total War: Warhammer III", "genre": "Strategy", "store": "Epic Games Store", "original_price": 59.99, "price": 17.99, "discount_pct": 70, "url": "https://www.cheapshark.com/redirect?dealID=cs-4"},
-  {"appid": "cs-5", "title": "Frostpunk", "genre": "Strategy", "store": "GOG", "original_price": 29.99, "price": 4.49, "discount_pct": 85, "url": "https://www.cheapshark.com/redirect?dealID=cs-5"},
-  {"appid": "cs-6", "title": "Dishonored 2", "genre": "Action", "store": "Fanatical", "original_price": 29.99, "price": 5.99, "discount_pct": 80, "url": "https://www.cheapshark.com/redirect?dealID=cs-6"},
-  {"appid": "cs-7", "title": "Ori and the Will of the Wisps", "genre": "Adventure", "store": "GreenManGaming", "original_price": 29.99, "price": 8.99, "discount_pct": 70, "url": "https://www.cheapshark.com/redirect?dealID=cs-7"},
-  {"appid": "cs-8", "title": "Dying Light 2", "genre": "Action", "store": "GamersGate", "original_price": 59.99, "price": 17.99, "discount_pct": 70, "url": "https://www.cheapshark.com/redirect?dealID=cs-8"},
-  {"appid": "cs-9", "title": "F1 23", "genre": "Racing", "store": "Origin", "original_price": 69.99, "price": 27.99, "discount_pct": 60, "url": "https://www.cheapshark.com/redirect?dealID=cs-9"},
-  {"appid": "cs-10", "title": "Football Manager 2024", "genre": "Sports", "store": "GreenManGaming", "original_price": 54.99, "price": 21.99, "discount_pct": 60, "url": "https://www.cheapshark.com/redirect?dealID=cs-10"},
-  {"appid": "cs-11", "title": "The Elder Scrolls V: Skyrim", "genre": "Other", "store": "GOG", "original_price": 39.99, "price": 5.99, "discount_pct": 85, "url": "https://www.cheapshark.com/redirect?dealID=cs-11"},
-  {"appid": "cs-12", "title": "Shovel Knight: Treasure Trove", "genre": "Indie", "store": "Humble Store", "original_price": 29.99, "price": 8.99, "discount_pct": 70, "url": "https://www.cheapshark.com/redirect?dealID=cs-12"}
+  {
+    "appid": "cs-1",
+    "title": "Persona 5 Royal",
+    "genre": "RPG",
+    "store": "Epic Games Store",
+    "original_price": 59.99,
+    "price": 15.0,
+    "discount_pct": 75,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-1"
+  },
+  {
+    "appid": "cs-2",
+    "title": "Mass Effect Legendary Edition",
+    "genre": "RPG",
+    "store": "Origin",
+    "original_price": 59.99,
+    "price": 18.0,
+    "discount_pct": 70,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-2"
+  },
+  {
+    "appid": "cs-3",
+    "title": "Divinity: Original Sin 2",
+    "genre": "RPG",
+    "store": "GOG",
+    "original_price": 44.99,
+    "price": 9.0,
+    "discount_pct": 80,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-3"
+  },
+  {
+    "appid": "cs-4",
+    "title": "Dragon Age: Inquisition",
+    "genre": "RPG",
+    "store": "Origin",
+    "original_price": 29.99,
+    "price": 6.0,
+    "discount_pct": 80,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-4"
+  },
+  {
+    "appid": "cs-5",
+    "title": "Pillars of Eternity II",
+    "genre": "RPG",
+    "store": "GOG",
+    "original_price": 44.99,
+    "price": 6.75,
+    "discount_pct": 85,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-5"
+  },
+  {
+    "appid": "cs-6",
+    "title": "Total War: Warhammer III",
+    "genre": "Strategy",
+    "store": "Epic Games Store",
+    "original_price": 59.99,
+    "price": 18.0,
+    "discount_pct": 70,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-6"
+  },
+  {
+    "appid": "cs-7",
+    "title": "Frostpunk",
+    "genre": "Strategy",
+    "store": "GOG",
+    "original_price": 29.99,
+    "price": 4.5,
+    "discount_pct": 85,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-7"
+  },
+  {
+    "appid": "cs-8",
+    "title": "Age of Wonders 4",
+    "genre": "Strategy",
+    "store": "Fanatical",
+    "original_price": 49.99,
+    "price": 20.0,
+    "discount_pct": 60,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-8"
+  },
+  {
+    "appid": "cs-9",
+    "title": "Anno 1800",
+    "genre": "Strategy",
+    "store": "Uplay",
+    "original_price": 49.99,
+    "price": 15.0,
+    "discount_pct": 70,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-9"
+  },
+  {
+    "appid": "cs-10",
+    "title": "Endless Space 2",
+    "genre": "Strategy",
+    "store": "GreenManGaming",
+    "original_price": 34.99,
+    "price": 8.75,
+    "discount_pct": 75,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-10"
+  },
+  {
+    "appid": "cs-11",
+    "title": "Dishonored 2",
+    "genre": "Action",
+    "store": "Fanatical",
+    "original_price": 29.99,
+    "price": 6.0,
+    "discount_pct": 80,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-11"
+  },
+  {
+    "appid": "cs-12",
+    "title": "Dying Light 2",
+    "genre": "Action",
+    "store": "GamersGate",
+    "original_price": 59.99,
+    "price": 18.0,
+    "discount_pct": 70,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-12"
+  },
+  {
+    "appid": "cs-13",
+    "title": "DOOM Eternal",
+    "genre": "Action",
+    "store": "Fanatical",
+    "original_price": 39.99,
+    "price": 10.0,
+    "discount_pct": 75,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-13"
+  },
+  {
+    "appid": "cs-14",
+    "title": "Metro Exodus",
+    "genre": "Action",
+    "store": "Epic Games Store",
+    "original_price": 39.99,
+    "price": 8.0,
+    "discount_pct": 80,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-14"
+  },
+  {
+    "appid": "cs-15",
+    "title": "Wolfenstein II: The New Colossus",
+    "genre": "Action",
+    "store": "GreenManGaming",
+    "original_price": 39.99,
+    "price": 6.0,
+    "discount_pct": 85,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-15"
+  },
+  {
+    "appid": "cs-16",
+    "title": "Ori and the Will of the Wisps",
+    "genre": "Adventure",
+    "store": "GreenManGaming",
+    "original_price": 29.99,
+    "price": 9.0,
+    "discount_pct": 70,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-16"
+  },
+  {
+    "appid": "cs-17",
+    "title": "It Takes Two",
+    "genre": "Adventure",
+    "store": "Origin",
+    "original_price": 39.99,
+    "price": 16.0,
+    "discount_pct": 60,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-17"
+  },
+  {
+    "appid": "cs-18",
+    "title": "A Way Out",
+    "genre": "Adventure",
+    "store": "Origin",
+    "original_price": 29.99,
+    "price": 7.5,
+    "discount_pct": 75,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-18"
+  },
+  {
+    "appid": "cs-19",
+    "title": "Firewatch",
+    "genre": "Adventure",
+    "store": "Humble Store",
+    "original_price": 19.99,
+    "price": 6.0,
+    "discount_pct": 70,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-19"
+  },
+  {
+    "appid": "cs-20",
+    "title": "Subnautica: Below Zero",
+    "genre": "Adventure",
+    "store": "Epic Games Store",
+    "original_price": 29.99,
+    "price": 13.5,
+    "discount_pct": 55,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-20"
+  },
+  {
+    "appid": "cs-21",
+    "title": "Hollow Knight",
+    "genre": "Indie",
+    "store": "Humble Store",
+    "original_price": 14.99,
+    "price": 4.5,
+    "discount_pct": 70,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-21"
+  },
+  {
+    "appid": "cs-22",
+    "title": "Shovel Knight: Treasure Trove",
+    "genre": "Indie",
+    "store": "Humble Store",
+    "original_price": 29.99,
+    "price": 9.0,
+    "discount_pct": 70,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-22"
+  },
+  {
+    "appid": "cs-23",
+    "title": "Katana ZERO",
+    "genre": "Indie",
+    "store": "GOG",
+    "original_price": 14.99,
+    "price": 6.0,
+    "discount_pct": 60,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-23"
+  },
+  {
+    "appid": "cs-24",
+    "title": "Cuphead",
+    "genre": "Indie",
+    "store": "GOG",
+    "original_price": 19.99,
+    "price": 9.99,
+    "discount_pct": 50,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-24"
+  },
+  {
+    "appid": "cs-25",
+    "title": "Cassette Beasts",
+    "genre": "Indie",
+    "store": "IndieGala",
+    "original_price": 24.99,
+    "price": 13.74,
+    "discount_pct": 45,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-25"
+  },
+  {
+    "appid": "cs-26",
+    "title": "F1 23",
+    "genre": "Racing",
+    "store": "Origin",
+    "original_price": 69.99,
+    "price": 28.0,
+    "discount_pct": 60,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-26"
+  },
+  {
+    "appid": "cs-27",
+    "title": "Forza Horizon 4",
+    "genre": "Racing",
+    "store": "Uplay",
+    "original_price": 49.99,
+    "price": 10.0,
+    "discount_pct": 80,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-27"
+  },
+  {
+    "appid": "cs-28",
+    "title": "Need for Speed Unbound",
+    "genre": "Racing",
+    "store": "Origin",
+    "original_price": 69.99,
+    "price": 24.5,
+    "discount_pct": 65,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-28"
+  },
+  {
+    "appid": "cs-29",
+    "title": "WRC Generations",
+    "genre": "Racing",
+    "store": "GamersGate",
+    "original_price": 39.99,
+    "price": 12.0,
+    "discount_pct": 70,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-29"
+  },
+  {
+    "appid": "cs-30",
+    "title": "Trackmania Turbo",
+    "genre": "Racing",
+    "store": "GreenManGaming",
+    "original_price": 29.99,
+    "price": 7.5,
+    "discount_pct": 75,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-30"
+  },
+  {
+    "appid": "cs-31",
+    "title": "Football Manager 2024",
+    "genre": "Sports",
+    "store": "GreenManGaming",
+    "original_price": 54.99,
+    "price": 22.0,
+    "discount_pct": 60,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-31"
+  },
+  {
+    "appid": "cs-32",
+    "title": "FIFA 23",
+    "genre": "Sports",
+    "store": "Origin",
+    "original_price": 59.99,
+    "price": 15.0,
+    "discount_pct": 75,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-32"
+  },
+  {
+    "appid": "cs-33",
+    "title": "Rocket League",
+    "genre": "Sports",
+    "store": "Epic Games Store",
+    "original_price": 0.0,
+    "price": 0.0,
+    "discount_pct": 0,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-33"
+  },
+  {
+    "appid": "cs-34",
+    "title": "Tony Hawk's Pro Skater 1+2",
+    "genre": "Sports",
+    "store": "Fanatical",
+    "original_price": 39.99,
+    "price": 12.0,
+    "discount_pct": 70,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-34"
+  },
+  {
+    "appid": "cs-35",
+    "title": "PGA Tour 2K23",
+    "genre": "Sports",
+    "store": "GamersGate",
+    "original_price": 59.99,
+    "price": 21.0,
+    "discount_pct": 65,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-35"
+  },
+  {
+    "appid": "cs-36",
+    "title": "The Elder Scrolls V: Skyrim",
+    "genre": "Other",
+    "store": "GOG",
+    "original_price": 39.99,
+    "price": 6.0,
+    "discount_pct": 85,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-36"
+  },
+  {
+    "appid": "cs-37",
+    "title": "Fallout: New Vegas",
+    "genre": "Other",
+    "store": "Humble Store",
+    "original_price": 19.99,
+    "price": 4.0,
+    "discount_pct": 80,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-37"
+  },
+  {
+    "appid": "cs-38",
+    "title": "Cyberpunk 2077",
+    "genre": "RPG",
+    "store": "GOG",
+    "original_price": 59.99,
+    "price": 21.0,
+    "discount_pct": 65,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-38"
+  },
+  {
+    "appid": "cs-39",
+    "title": "Baldur's Gate 3",
+    "genre": "RPG",
+    "store": "GOG",
+    "original_price": 59.99,
+    "price": 47.99,
+    "discount_pct": 20,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-39"
+  },
+  {
+    "appid": "cs-40",
+    "title": "Two Point Campus",
+    "genre": "Simulation",
+    "store": "Epic Games Store",
+    "original_price": 34.99,
+    "price": 15.75,
+    "discount_pct": 55,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-40"
+  },
+  {
+    "appid": "cs-41",
+    "title": "Planet Coaster",
+    "genre": "Simulation",
+    "store": "Fanatical",
+    "original_price": 44.99,
+    "price": 13.5,
+    "discount_pct": 70,
+    "url": "https://www.cheapshark.com/redirect?dealID=cs-41"
+  }
 ]
