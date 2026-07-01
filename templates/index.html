@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Deals Scraper — Price Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header class="marquee">
+  <div class="marquee-inner">
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <span id="theme-icon">☾</span>
+    </button>
+    <h1 class="marquee-title">GAME&nbsp;DEALS</h1>
+    <p class="marquee-sub">{{ total_deals }} items on the clearance rack right now</p>
+  </div>
+</header>
+
+<main class="board">
+
+  <nav class="tabs" aria-label="View switcher">
+    <button class="tab-btn is-active" data-view="deals">Deals</button>
+    <button class="tab-btn" data-view="watchlist">Watchlist <span id="watch-count" class="tab-count"></span></button>
+  </nav>
+
+  <section id="view-deals" class="view">
+
+    <section class="ticket-bar" aria-label="Filters">
+      <div class="ticket-field ticket-field--wide">
+        <label for="search-input">SEARCH</label>
+        <input type="search" id="search-input" placeholder="Find a game by title...">
+      </div>
+
+      <div class="ticket-field">
+        <label for="genre-select">GENRE</label>
+        <select id="genre-select">
+          <option value="all">All genres</option>
+          {% for g in genres %}
+          <option value="{{ g }}">{{ g }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="ticket-field">
+        <label for="store-select">STORE</label>
+        <select id="store-select">
+          <option value="all">All stores</option>
+          {% for s in stores %}
+          <option value="{{ s }}">{{ s }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="ticket-field">
+        <label for="sort-select">SORT BY</label>
+        <select id="sort-select">
+          <option value="discount_desc">Biggest discount</option>
+          <option value="price_asc">Price: low to high</option>
+          <option value="price_desc">Price: high to low</option>
+          <option value="alpha">Title: A to Z</option>
+        </select>
+      </div>
+
+      <div class="ticket-field ticket-field--wide">
+        <label for="price-range">MAX PRICE&nbsp;<span id="price-value">${{ max_price_available }}</span></label>
+        <input type="range" id="price-range" min="0" max="{{ max_price_available }}" value="{{ max_price_available }}" step="1">
+      </div>
+
+      <div class="ticket-field ticket-field--check">
+        <label class="checkbox-label">
+          <input type="checkbox" id="best-only">
+          <span>Best deals only (&ge;{{ best_deal_threshold }}% off)</span>
+        </label>
+      </div>
+    </section>
+
+    <p id="result-count" class="result-count" aria-live="polite"></p>
+
+    <section id="deal-grid" class="deal-grid" aria-live="polite">
+      <!-- cards injected by script.js -->
+    </section>
+
+    <p id="empty-state" class="empty-state" hidden>
+      Nothing here at this price. Drag the slider right or clear a filter.
+    </p>
+
+    <nav id="pagination" class="pagination" aria-label="Pagination"></nav>
+
+  </section>
+
+  <section id="view-watchlist" class="view" hidden>
+    <p class="result-count">Get a badge here the moment a watched game drops to your target price.</p>
+    <div id="watchlist-grid" class="deal-grid"></div>
+    <p id="watchlist-empty" class="empty-state" hidden>
+      You're not watching anything yet. Click "Watch" on any deal to add it.
+    </p>
+  </section>
+
+</main>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+<dialog id="watch-dialog" class="watch-dialog">
+  <form method="dialog" id="watch-form">
+    <h2>Watch this game</h2>
+    <p id="watch-dialog-title" class="watch-dialog-title"></p>
+    <label for="target-price-input">Alert me when the price drops to or below:</label>
+    <input type="number" id="target-price-input" min="0" step="0.01" required>
+    <div class="watch-dialog-actions">
+      <button type="button" id="watch-cancel" class="btn-ghost">Cancel</button>
+      <button type="submit" id="watch-confirm" class="btn-primary">Start watching</button>
+    </div>
+  </form>
+</dialog>
+
+<footer class="board-footer">
+  <p>Prices are scraped snapshots — always confirm on the store page before buying.</p>
+</footer>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

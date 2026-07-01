@@ -1,0 +1,14 @@
+[
+  {"appid": "cs-1", "title": "Persona 5 Royal", "genre": "RPG", "store": "Epic Games Store", "original_price": 59.99, "price": 14.99, "discount_pct": 75, "url": "https://www.cheapshark.com/redirect?dealID=cs-1"},
+  {"appid": "cs-2", "title": "Divinity: Original Sin 2", "genre": "RPG", "store": "GOG", "original_price": 44.99, "price": 8.99, "discount_pct": 80, "url": "https://www.cheapshark.com/redirect?dealID=cs-2"},
+  {"appid": "cs-3", "title": "Hollow Knight", "genre": "Indie", "store": "Humble Store", "original_price": 14.99, "price": 4.49, "discount_pct": 70, "url": "https://www.cheapshark.com/redirect?dealID=cs-3"},
+  {"appid": "cs-4", "title": "Total War: Warhammer III", "genre": "Strategy", "store": "Epic Games Store", "original_price": 59.99, "price": 17.99, "discount_pct": 70, "url": "https://www.cheapshark.com/redirect?dealID=cs-4"},
+  {"appid": "cs-5", "title": "Frostpunk", "genre": "Strategy", "store": "GOG", "original_price": 29.99, "price": 4.49, "discount_pct": 85, "url": "https://www.cheapshark.com/redirect?dealID=cs-5"},
+  {"appid": "cs-6", "title": "Dishonored 2", "genre": "Action", "store": "Fanatical", "original_price": 29.99, "price": 5.99, "discount_pct": 80, "url": "https://www.cheapshark.com/redirect?dealID=cs-6"},
+  {"appid": "cs-7", "title": "Ori and the Will of the Wisps", "genre": "Adventure", "store": "GreenManGaming", "original_price": 29.99, "price": 8.99, "discount_pct": 70, "url": "https://www.cheapshark.com/redirect?dealID=cs-7"},
+  {"appid": "cs-8", "title": "Dying Light 2", "genre": "Action", "store": "GamersGate", "original_price": 59.99, "price": 17.99, "discount_pct": 70, "url": "https://www.cheapshark.com/redirect?dealID=cs-8"},
+  {"appid": "cs-9", "title": "F1 23", "genre": "Racing", "store": "Origin", "original_price": 69.99, "price": 27.99, "discount_pct": 60, "url": "https://www.cheapshark.com/redirect?dealID=cs-9"},
+  {"appid": "cs-10", "title": "Football Manager 2024", "genre": "Sports", "store": "GreenManGaming", "original_price": 54.99, "price": 21.99, "discount_pct": 60, "url": "https://www.cheapshark.com/redirect?dealID=cs-10"},
+  {"appid": "cs-11", "title": "The Elder Scrolls V: Skyrim", "genre": "Other", "store": "GOG", "original_price": 39.99, "price": 5.99, "discount_pct": 85, "url": "https://www.cheapshark.com/redirect?dealID=cs-11"},
+  {"appid": "cs-12", "title": "Shovel Knight: Treasure Trove", "genre": "Indie", "store": "Humble Store", "original_price": 29.99, "price": 8.99, "discount_pct": 70, "url": "https://www.cheapshark.com/redirect?dealID=cs-12"}
+]

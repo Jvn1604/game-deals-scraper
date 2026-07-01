@@ -1,0 +1,23 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - deal-data:/app/data
+    environment:
+      - FLASK_ENV=production
+    restart: unless-stopped
+
+  # Optional: runs the scraper on a schedule inside its own container instead
+  # of using scheduler.py's in-process APScheduler loop. Comment out if you'd
+  # rather trigger refreshes via the GitHub Actions workflow instead.
+  scraper:
+    build: .
+    volumes:
+      - deal-data:/app/data
+    entrypoint: ["python", "scheduler.py"]
+    restart: unless-stopped
+
+volumes:
+  deal-data:
