@@ -42,7 +42,25 @@ game-deals-scraper/
 └── static/{style.css, script.js}
 ```
 
-## Setup
+## GitHub Pages landing page
+
+`index.html` at the repo root is a static, backend-free landing/demo page —
+this is what GitHub Pages serves at `https://<you>.github.io/game-deals-scraper/`.
+Without it, GitHub Pages falls back to auto-rendering `README.md` as plain
+unstyled markdown, which is the "ugly readme dump" look you get by default.
+
+It reuses the same price-tag design system as the real dashboard
+(`static/style.css` + `static/landing.css`) and includes a genuinely working
+filter/search/sort demo — `static/landing.js` filters the bundled
+`data/sample_*.json` entirely client-side, since GitHub Pages can't run the
+Flask backend. Price history, the watchlist, and live scraping still need
+`python app.py` running locally (or deployed) — the landing page links to
+those instructions.
+
+To publish it: enable GitHub Pages on the repo (Settings → Pages → Deploy
+from branch → `main` / root), and it'll pick up `index.html` automatically.
+
+## Setup (running the full app)
 
 ```bash
 python -m venv venv

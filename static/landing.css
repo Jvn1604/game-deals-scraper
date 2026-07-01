@@ -1,0 +1,150 @@
+/* =========================================================
+   Landing page additions (index.html at repo root, GitHub Pages)
+   Builds on top of static/style.css's price-tag design system.
+   ========================================================= */
+
+.landing-hero { padding: 3rem 1.5rem 3rem; }
+
+.landing-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  color: var(--mustard);
+  margin: 0 0 0.75rem;
+}
+
+.landing-tagline {
+  max-width: 560px;
+  margin: 0.75rem auto 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--paper);
+  opacity: 0.85;
+}
+
+.landing-cta-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1.75rem;
+}
+
+.landing-cta {
+  font-family: var(--font-mono);
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.65rem 1.1rem;
+  font-size: 0.82rem;
+}
+
+.landing-hero .btn-primary.landing-cta {
+  background: var(--sale-red);
+  border: 1px solid var(--sale-red);
+  color: #fff;
+}
+
+.landing-hero .btn-ghost.landing-cta {
+  background: transparent;
+  border: 1px solid var(--paper);
+  color: var(--paper);
+}
+
+.landing-hero .btn-ghost.landing-cta:hover { border-color: var(--sale-red); color: var(--sale-red); }
+
+/* ---------- Feature strip ---------- */
+.feature-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin: 2.5rem 0 3rem;
+}
+
+.feature-tag {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1.25rem;
+  position: relative;
+}
+
+.feature-num {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--sale-red);
+  letter-spacing: 0.08em;
+}
+
+.feature-tag h3 {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  margin: 0.5rem 0 0.4rem;
+}
+
+.feature-tag p {
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.45;
+  margin: 0;
+}
+
+/* ---------- Demo section ---------- */
+.demo-section {
+  border-top: 1px dashed var(--line);
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.demo-heading h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin: 0 0 0.4rem;
+  letter-spacing: 0.01em;
+}
+
+.demo-sub {
+  font-size: 0.87rem;
+  color: var(--muted);
+  max-width: 620px;
+  margin: 0 0 1.5rem;
+  line-height: 1.5;
+}
+
+.demo-sub a { color: var(--sale-red); }
+
+/* ---------- Run locally ---------- */
+.run-locally {
+  border-top: 1px dashed var(--line);
+  padding-top: 2rem;
+}
+
+.run-locally h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin: 0 0 1rem;
+}
+
+.code-block {
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  line-height: 1.6;
+  padding: 1.1rem 1.25rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.run-locally-note {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 0.75rem;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 760px) {
+  .feature-strip { grid-template-columns: 1fr; }
+}

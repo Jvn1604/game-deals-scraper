@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Deals Scraper — Jeeventhiran Sivanantham</title>
+<meta name="description" content="A Python/BeautifulSoup scraper + Flask dashboard that tracks game deals across Steam and cross-store retailers, with price history and watchlist alerts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css">
+<link rel="stylesheet" href="static/landing.css">
+</head>
+<body>
+
+<header class="marquee landing-hero">
+  <div class="marquee-inner">
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <span id="theme-icon">☾</span>
+    </button>
+    <p class="landing-eyebrow">CASE STUDY &middot; PYTHON &middot; FLASK &middot; BEAUTIFULSOUP</p>
+    <h1 class="marquee-title">GAME&nbsp;DEALS<br>SCRAPER</h1>
+    <p class="marquee-sub landing-tagline">
+      Scrapes live game discounts from Steam &amp; cross-store retailers,
+      tracks price history, and alerts you when a wishlist game hits your target price.
+    </p>
+    <div class="landing-cta-row">
+      <a class="btn-primary landing-cta" href="https://github.com/Jvn1604/game-deals-scraper" target="_blank" rel="noopener">View source on GitHub &rarr;</a>
+      <a class="btn-ghost landing-cta" href="#demo">Try the live demo &darr;</a>
+    </div>
+  </div>
+</header>
+
+<main class="board">
+
+  <section class="feature-strip" aria-label="Key features">
+    <div class="feature-tag">
+      <span class="feature-num">01</span>
+      <h3>Scrapes real listings</h3>
+      <p>BeautifulSoup pulls Steam's Specials page by genre tag; the CheapShark API fills in GOG, Epic, Humble, and more.</p>
+    </div>
+    <div class="feature-tag">
+      <span class="feature-num">02</span>
+      <h3>Tracks price history</h3>
+      <p>Every price change is logged to SQLite, powering a per-game sparkline so you can see if a "deal" is actually a low.</p>
+    </div>
+    <div class="feature-tag">
+      <span class="feature-num">03</span>
+      <h3>Watches for you</h3>
+      <p>Set a target price on any title. The scraper checks the watchlist on every run and flags what's hit its target.</p>
+    </div>
+  </section>
+
+  <section id="demo" class="demo-section">
+    <div class="demo-heading">
+      <h2>Live filter demo</h2>
+      <p class="demo-sub">Running client-side against a sample dataset — genre, search, and sort all work below. The full app (price history, watchlist, cross-store live scraping) needs the Flask backend; see <a href="#run-locally">running it locally</a>.</p>
+    </div>
+
+    <section class="ticket-bar" aria-label="Filters">
+      <div class="ticket-field ticket-field--wide">
+        <label for="search-input">SEARCH</label>
+        <input type="search" id="search-input" placeholder="Find a game by title...">
+      </div>
+      <div class="ticket-field">
+        <label for="genre-select">GENRE</label>
+        <select id="genre-select"><option value="all">All genres</option></select>
+      </div>
+      <div class="ticket-field">
+        <label for="sort-select">SORT BY</label>
+        <select id="sort-select">
+          <option value="discount_desc">Biggest discount</option>
+          <option value="price_asc">Price: low to high</option>
+          <option value="price_desc">Price: high to low</option>
+          <option value="alpha">Title: A to Z</option>
+        </select>
+      </div>
+      <div class="ticket-field ticket-field--check">
+        <label class="checkbox-label">
+          <input type="checkbox" id="best-only">
+          <span>Best deals only (&ge;60% off)</span>
+        </label>
+      </div>
+    </section>
+
+    <p id="result-count" class="result-count" aria-live="polite"></p>
+    <section id="deal-grid" class="deal-grid" aria-live="polite"></section>
+    <p id="empty-state" class="empty-state" hidden>No matches — try a different search or filter.</p>
+  </section>
+
+  <section id="run-locally" class="run-locally">
+    <h2>Run the full app locally</h2>
+    <pre class="code-block">git clone https://github.com/Jvn1604/game-deals-scraper.git
+cd game-deals-scraper
+pip install -r requirements.txt
+python db.py
+python scraper.py   # optional — refresh live data
+python app.py        # open http://127.0.0.1:5000</pre>
+    <p class="run-locally-note">Docker, Render, and Railway deploy configs are included in the repo — see the README for details.</p>
+  </section>
+
+</main>
+
+<footer class="board-footer">
+  <p>Built by <a href="https://jvn1604.github.io/" target="_blank" rel="noopener">Jeeventhiran Sivanantham</a> &middot; <a href="https://github.com/Jvn1604/game-deals-scraper" target="_blank" rel="noopener">source on GitHub</a></p>
+</footer>
+
+<script src="static/landing.js"></script>
+</body>
+</html>
